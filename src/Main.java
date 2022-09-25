@@ -48,15 +48,21 @@ public class Main {
         short tame2=1440;
         int time3=4320;
         long taim4=43200;
-        System.out.println("за "+time1+" машина произвела "+(bottle*time1)+" бутылок");
-        System.out.println("за "+tame2+" машина произвела "+(bottle*tame2)+" бутылок");
-        System.out.println("за "+time3+" машина произвела "+(time3*bottle)+" бутылок");
-        System.out.println("за "+taim4+" машина произвела "+(taim4*bottle)+" бутылок");
+        System.out.println("За "+time1+" минут машина произвела "+(bottle*time1)+" бутылок");
+        System.out.println("За "+tame2+" минут машина произвела "+(bottle*tame2)+" бутылок");
+        System.out.println("За "+time3+" минут машина произвела "+(time3*bottle)+" бутылок");
+        System.out.println("За "+taim4+" минут машина произвела "+(taim4*bottle)+" бутылок");
 
         System.out.println("Задача 5");
+        int canPaint=120;
+        byte whitePaint=2;
+        short brownPaint=4;
+        System.out.println("В школе всего "+canPaint/(whitePaint+brownPaint)+" классов");
+        System.out.println("Белой краски "+canPaint/(whitePaint+brownPaint)*whitePaint+" банок");
+        System.out.println("Коричневой краски "+canPaint/(whitePaint+brownPaint)*brownPaint+" банок");
+        System.out.println( "В школе, где "+canPaint/(whitePaint+brownPaint)+" классов, нужно "+(canPaint/(whitePaint+brownPaint)*whitePaint)+" банок белой краски и "+(canPaint/(whitePaint+brownPaint)*brownPaint)+" банок коричневой краски");
 
-
-
+        System.out.println("задача 6");
 
     }
 }
