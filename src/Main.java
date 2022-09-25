@@ -63,6 +63,14 @@ public class Main {
         System.out.println( "В школе, где "+canPaint/(whitePaint+brownPaint)+" классов, нужно "+(canPaint/(whitePaint+brownPaint)*whitePaint)+" банок белой краски и "+(canPaint/(whitePaint+brownPaint)*brownPaint)+" банок коричневой краски");
 
         System.out.println("задача 6");
+        short bananas=80*5;
+        short milk=105*2;
+        short iceСream=100*2;
+        short egg=70*4;
+        System.out.println("В спорт-завтраке "+(bananas+milk+iceСream+egg)+" грамм");
+        System.out.println("В спорт-завтраке "+(bananas+milk+iceСream+egg)*0.001+" кг");
+
+        System.out.println("задача 7");
 
     }
 }
