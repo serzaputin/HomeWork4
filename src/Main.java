@@ -16,18 +16,24 @@ public class Main {
         System.out.println(f);
 
         System.out.println("Задача 2");
+        float w=27.12f;
+        System.out.println(w);
+        long q=987678965549L;
+        System.out.println(q);
+        byte g=2;
+        System.out.println(g);
+        short v=786;
+        System.out.println(v);
+        boolean n=false;
+        System.out.println(n);
+        short x=569;
+        System.out.println(x);
+        short o=-159;
+        System.out.println(o);
         int t=27897;
         System.out.println(t);
         byte y=67;
         System.out.println(y);
-        short o=-159;
-        System.out.println(o);
-        long q=987678965549L;
-        System.out.println(q);
-        float w=27.12f;
-        System.out.println(w);
-        double r=2.786;
-        System.out.println(r);
 
         System.out.println("Задача 3");
         int ticherOne=23;
