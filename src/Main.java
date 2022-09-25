@@ -65,12 +65,31 @@ public class Main {
         System.out.println("задача 6");
         short bananas=80*5;
         short milk=105*2;
-        short iceСream=100*2;
+        short iceCream=100*2;
         short egg=70*4;
-        System.out.println("В спорт-завтраке "+(bananas+milk+iceСream+egg)+" грамм");
-        System.out.println("В спорт-завтраке "+(bananas+milk+iceСream+egg)*0.001+" кг");
+        System.out.println("В спорт-завтраке "+(bananas+milk+iceCream+egg)+" грамм");
+        System.out.println("В спорт-завтраке "+(bananas+milk+iceCream+egg)*0.001+" кг");
 
         System.out.println("задача 7");
+        short loseWeight=7000;
+        short weightOne=250;
+        short weightTwo=500;
+        System.out.println("Если спортсмен будет терять по "+weightOne+" грамм, то понадобится "+loseWeight/weightOne+" дней");
+        System.out.println("Если спортсмен будет терять по "+weightTwo+" грамм, то понадобится "+loseWeight/weightTwo+" дней");
+        System.out.println("Потребуется в среднем "+(loseWeight/weightOne-loseWeight/weightTwo)%loseWeight+" дней");
 
+        System.out.println("задача 8");
+        int masha=67760;
+        System.out.println(masha+677.6-masha);
+        int denis=83690;
+        System.out.println(denis+836.9-denis);
+        int kristina=76230;
+        System.out.println(kristina+762.3-kristina);
+        System.out.println(masha+677.6);
+        System.out.println(denis+836.9);
+        System.out.println(kristina+762.3);
+        System.out.println("Маша теперь получает "+(masha+677.6)+" рублей, годовой доход вырос на "+(masha+677.6-masha)+" рублей");
+        System.out.println("Денис теперь получает "+(denis+836.9)+" рублей, годовой доход вырос на "+(denis+836.9-denis)+" рублей");
+        System.out.println("Кристина теперь получает "+(kristina+762.3)+" рублей, годовой доход вырос на "+(kristina+762.3-kristina)+" рублей");
     }
 }
